@@ -36,7 +36,8 @@ int myatoi(char *p)
 	}
 	return data*sin;
 }
-main()
+int main()
 {
 	printf("%d \n",myatoi("123"));
+	return 0;
 }
